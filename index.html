@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="sv">
+	<head>
+		<meta charset="utf-8">
+		<!--link länkar till extern stilmall i css-->
+		<link rel="stylesheet" href="style.css">
+		<title>FAKTA OM LULEÅ TEKNISKA UNIVERSITET</title>
+	</head>
+
+	<body>
+		<!-- id wrapper för innehållets huvudcontainer, id pga wrapper är ett unikt element istället för class som kan användas för fler element-->
+		<!-- header för sidans huvudrubrik, behåller header inom wrapper då endast kant avstånd justeras med wrapper-->
+		 <div id="wrapper">
+			<header>
+				<h1>
+					FAKTA OM LULEÅ TEKNISKA UNIVERSITETET
+				</h1>
+			</header>
+			<!--class text för styling som är återkommande på fler sektioner och ska ha samma css kod-->
+			<div class="text">
+				<p>
+					Detta är en kort presentation om Luleå Tekniska Universitet i siffror.
+				</p>
+				<p>
+					Luleå tekniska universitet omsätter 1,5 miljarder kronor per år. Vi är idag 1 600 anställda och 17 000 studenter. Vår forskning bedrivs i nära samarbete med företag som Shell, Ericsson, Scania, LKAB, Airbus, Volvo Aero och IBM samt med ledande internationella universitet. Vår forskning omsätter mer än 800 miljoner kronor.
+				</p>
+			</div>
+
+			<section class="text">
+				<h2>
+					Omsättning 1.5 miljarder kronor
+				</h2>
+				<!--lista med class för stil i css-->
+				<ul class="lista">
+					<li>70 forskningsämnen omsätter</li>
+					<li>800 miljoner kronor varav</li>
+					<li>61% är externfinansierad.</li>
+				</ul>
+			</section>
+
+			<!-- avsnitt med tabell, class för stil i css-->
+				<table class="tabell1">
+					<caption> Tabell 1</caption>
+					<tbody>
+						<tr>
+							<td> Studenter</td>
+							<td>17000</td>
+						</tr>
+						<tr>
+							<td>anställda</td>
+							<td>1600</td>
+						</tr>
+						<tr>
+							<td>Professorer</td>
+							<td>180</td>
+						</tr>
+						<tr>
+							<td>Forskare och lärare</td>
+							<td>860</td>
+						</tr>
+						<tr>
+							<td>Övrig personal</td>
+							<td>550</td>
+						</tr>
+						<tr>
+							<td>Doktorander</td>
+							<td>600</td>
+						</tr>
+					</tbody>
+				</table>
+
+			 <section class="text">
+				<h2>
+					Vår styrka
+				</h2>
+				<ul>
+					<li>Spetsforskning</li>
+					<li>Flervetenskaplighet</li>
+					<li>Nära samarbete med näringsliv och samhälle</li>
+				</ul>
+			 </section>
+
+			  <section class="text">
+				<h3>
+					Exempel på ledande forskning
+				</h3>
+				<ul>
+					<li>Gruvteknik och metallurgi</li>
+					<li>Energiteknik och förnyelsebar energi</li>
+					<li>Högpresterande stål</li>
+					<li>IKT</li>
+					<li>Tribologi</li>
+				</ul>
+			  </section>
+
+			  <!-- avsnitt tabell nr 2, class för stil i css-->
+				<table class="tabell2">
+					<caption>Tabell 2</caption>
+					<thead>
+						<tr>
+							<th>Studenter</th>
+							<th>17000</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Civilingenjör</td>
+							<td>2800</td>
+						</tr>
+						<tr>
+							<td>Högskoleingenjör</td>
+							<td>350</td>
+						</tr>
+						<tr>
+							<td>Övrig teknisk utbildning</td>
+							<td>800</td>
+						</tr>
+						<tr>
+							<td>Ekonomi och samhällsvetenskap</td>
+							<td>1800</td>
+						</tr>
+						<tr>
+							<td>Hälsvetenskap</td>
+							<td>1300</td>
+						</tr>
+						<tr>
+							<td>Lärarutbildningar</td>
+							<td>900</td>
+						</tr>
+						<tr>
+							<td>Musik, media och teater</td>
+							<td>600</td>
+						</tr>
+						<tr>
+							<td>Fristående kurser</td>
+							<td>8300</td>
+						</tr>
+						<tr>
+							<td>Avancerad nivå</td>
+							<td>600</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<!-- tr class för stil i css-->
+						 <!-- colspan 2 för att cellen ska täcka två columner-->
+						<tr class="tfoot">
+							<td colspan="2">
+								Cirka 600 utländska studenter ingår i det totala antalet studenter
+							</td>
+						</tr>
+					</tfoot>
+				</table>
+
+			   <!--källan längst ned på sidan, id för stil i css. id pga att source är ett unikt element-->
+			   <footer>
+				<p id="source">Källa: Luleå Tekniska Universitet <a href="http://www.ltu.se/">http://www.ltu.se/</a> </p>
+			   </footer>
+
+
+		 </div> <!-- wrapper slut-->
+	</body>
+</html>

@@ -1,0 +1,87 @@
+
+/* wrapper inkluderar hela sidans innehåll*/
+/* padding för att skapa tom yta mellan innehåll och webbfönstrets kanter*/
+#wrapper  {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+/* typsnitt för alla rubriker, arial används i förstahand, kan inte den visas av webbläsaren används helvetica, kan inte den visas används sans-serif*/
+h1, h2, h3, h4, h5, h6 {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/*samma som för rubrikerna gäller visningsordningen för övrig text men med candara, verdana och sans-serif*/
+body {
+    font-family: Candara, Verdana, sans-serif;
+}
+
+/*padding för att skapa utrymme runt hela innehållet */
+.text {
+    padding: 3px;
+}
+
+/*list stil för att ta bort att listan är punktad*/
+.lista {
+    list-style-type: none;
+}
+
+/*bakgrundsfärg med svart kant runt tabellen. collapse för att cellernas kanter ska gå ihop med tabellens kanter*/
+.tabell1 {
+    background-color: #ffcccc;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/*text alain för att justera texten till vänsterkanten på sidan. font weight bold gör rubriken i fetstil*/
+.tabell1 caption {
+    text-align: left;
+    font-weight: bold;
+}
+
+/*padding inne i tabellen för att ge bättre läsbarhet genom att skapa mer utrymme mellan cellerna*/
+.tabell1 td, .tabell1 th {
+    padding: 10px;
+}
+
+.tabell2 {
+    background-color: #ffcc99;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tabell2 caption {
+    text-align: left;
+    font-weight: bold;
+}
+
+.tabell2 td, 
+.tabell2 th {
+    padding: 10px;
+}
+
+/*border bottom skapar en kant endast på nederdelen*/
+.tabell2 thead th {
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+.tabell2 tfoot td {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+/*text align right justerar texten till högerkanten på sidan*/
+#source {
+    color: #009900;
+    font-weight: bold;
+    text-align: right;
+}
+
+/*hover för att länk ska ändra färg när muspilen förs över texten*/
+a:hover {
+    background-color: rgb(246, 235, 207);
+    color: rgb(159, 3, 21);
+}
